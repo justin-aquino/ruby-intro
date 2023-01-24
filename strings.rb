@@ -43,8 +43,13 @@
 # puts str1.length # outputs the number of characters in the string.
 # puts str1[0, str1.length] # starts from 0 to 16, which is the number of characters in the string.
 
-### ARRAY METHODS
 
-arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-puts arr1[1]
+
+# ESCAPE CHARACTERS
+
+puts "some text \n more text" # \n means new line.
+puts "\t this means a tab, or indentation."
+
+puts  "Juliet said 'goodbye' to Romeo"
+puts  "Juliet said \"goodbye\" to Romeo" #this is if you want to use double quotes
