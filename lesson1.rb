@@ -15,13 +15,16 @@ print "Code runner isn't working T.T"
 #in the terminal: "irb" to launch the IRB. REPL = Read Evaluate, Print, Loop
 
 =begin
-PUTS vs PRINT
+PUTS vs PRINT vs P
 
 Puts gives the result, plus a line break.
 Print does not have a line break.
+P is similar to puts, but is more technical. It can give you more details about the output. You cant use escape characters here.
 =end
 
 5.times {print "hello"}
 5.times { puts "hi" }
 
+p 5 # this object (data type) is a number
+p "5" #this is a string. Therefore you cannot add.
 puts 1,2,3,4,5 #can output multiple values.
