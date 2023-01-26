@@ -17,3 +17,17 @@ puts "43" + "42"
 
 
 =end
+
+#Variables
+
+age = 31
+
+puts age
+
+puts last_name = "Jiji"
+
+puts name + last_name 
+
+puts "Hello my name is #{last_name} #{name}. I am #{age} years old."
+
+#variables can store values of different data types, unlike other programming languages that require a variable to have a value with consistent data type.
