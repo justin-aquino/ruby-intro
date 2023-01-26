@@ -13,8 +13,7 @@ puts 0.14 #there has to be a zero before the decimal.
 Arithmetic operators in Ruby is pretty much the same as in Javascript, except when dividing.
 =end
 
-puts 11 / 5 #outputs 2. Ruby chops off the floating numbers / decimals.
+puts 11 / 5 #outputs 2. Ruby chops off the floating numbers / decimals. It doesnt round up, or down. It takes off decimals.
 puts 11.0 / 5 #unless you add a decimal. output: 2.2
 
-puts 2 * 3
-puts "This is pretty much the same as JS, except for division. You have to put a decimal to get the remainder."
+puts (2 + 3) * 5 # Ruby also follows PEMDAS.
