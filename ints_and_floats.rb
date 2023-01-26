@@ -16,3 +16,5 @@ Arithmetic operators in Ruby is pretty much the same as in Javascript, except wh
 puts 11 / 5 #outputs 2. Ruby chops off the floating numbers / decimals.
 puts 11.0 / 5 #unless you add a decimal. output: 2.2
 
+puts 2 * 3
+puts "This is pretty much the same as JS, except for division. You have to put a decimal to get the remainder."
