@@ -55,3 +55,15 @@ puts  "Juliet said 'goodbye' to Romeo"
 puts  "Juliet said \"goodbye\" to Romeo" #this is if you want to use double quotes
 
 
+#CONSTANTS - a variable with unchanging value
+
+pi = 3.14159 
+
+Pi = 3.14159 #if you make the variable first letter capitalized, it becomes a constant variable.
+
+
+#convention for constant variables is all caps.
+
+PI = 3.14159
+
+puts Pi

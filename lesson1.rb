@@ -28,3 +28,15 @@ P is similar to puts, but is more technical. It can give you more details about 
 p 5 # this object (data type) is a number
 p "5" #this is a string. Therefore you cannot add.
 puts 1,2,3,4,5 #can output multiple values.
+
+# parallel variable assignments
+
+a = 10
+b = 20
+c = 30
+
+a, b, c = 10, 20, 30 #this is pretty much the same as the ones above.
+
+a , b = c, a #this gives a the value of C which is 30, and then b the value of a, which is 10.
+
+puts a, b
