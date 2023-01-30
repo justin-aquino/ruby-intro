@@ -19,3 +19,15 @@ puts greeting.upcase
 
 puts greeting.upcase() #can work with or without parentheses. But convention is, if you don't need it, don't use it.
 
+#INTEGER OBJECTS
+
+puts 10.next #outputs the number after 10.
+
+puts -1.next #also works on negative numbers.
+
+puts 10.succ #short for successor. Works the same as .next.
+
+puts 10.pred #will give you the number before. (9) Short for predecessor.
+
+
+#METHOD Chaining
