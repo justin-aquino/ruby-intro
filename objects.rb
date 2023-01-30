@@ -31,3 +31,10 @@ puts 10.pred #will give you the number before. (9) Short for predecessor.
 
 
 #METHOD Chaining
+
+puts "hello there".upcase.length() 
+
+puts "Justin is studying.".upcase.length
+puts "Justin is studying.".upcase.length.succ
+
+puts 10.next.next.next.pred #this works too. lol
