@@ -15,3 +15,11 @@ array1 = [1,2,3,4,5,6,7,8,9]
 puts array1.include? 2 #works in arrays too.
 
 # puts "Big Mac".include?("B", "M") #only accepts 1 argument even when it has a parentheses.
+
+
+
+#### METHODS WITH MULTIPLE ARGUMENTS.
+
+puts 20.between? 10, 30 #is 20 between 10 and 30? Output: True
+
+#between? also works for floats. Parentheses is optional.
