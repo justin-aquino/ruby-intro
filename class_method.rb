@@ -24,3 +24,9 @@ puts text.to_i
 puts text.class #the text doesn't change passbyreference
 
 puts text.to_i.class #change it to integer
+
+puts text.to_f.class #to_f changes it to float.
+
+number = 5
+
+number.to_s.class #to_s turns it into a string.
