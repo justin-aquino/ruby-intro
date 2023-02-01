@@ -1,4 +1,4 @@
-#GETS method.
+#GETS method. Gets the string via user input
 
 =begin
 Top level ruby string method.
