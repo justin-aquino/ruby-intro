@@ -23,3 +23,15 @@ end
 
 3.times { |count| puts "#{count} Hi" } #the count would save the number of iteration it's on, as it's value.
 #define the block variables inside a double pipe.
+
+#UPTO AND DOWNTO - requires both both an argument and a block.
+
+5.upto(10) { |current| puts "The loop is now on #{current}"} #I want to go from 5 UPTO 10. The block, is what you want to do 5 to 10 times.
+
+6.downto(1) {|number| puts "Count down: #{number}"} #counts down from 6 to 1.
+
+99.downto(1) do |number|
+    puts "#{number} bottles of beer on the wall, #{number} bottles of beer"
+    puts "Take one down, pass it around"
+    puts "#{number - 1} bottles of beer on the wall"
+end
