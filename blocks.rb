@@ -35,3 +35,12 @@ end
     puts "Take one down, pass it around"
     puts "#{number - 1} bottles of beer on the wall"
 end
+
+
+##STEPS METHOD
+#first argument is upto what you want to go. Second arg is the interval or increment.
+
+1.step(100,5) do |number|
+    puts "Alright, lets go up by 5!" # 1 + 5, until < 100
+    puts "I'm now on #{number}"
+end
