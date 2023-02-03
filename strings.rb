@@ -88,3 +88,7 @@ MLS
 
 puts words
 p words
+
+puts 'Hello \n World' #line break doesnt work.
+puts '#{name} is my name' #neither does interpolation
+puts "Hello \n World"
