@@ -67,3 +67,24 @@ Pi = 3.14159 #if you make the variable first letter capitalized, it becomes a co
 PI = 3.14159
 
 puts Pi
+
+
+name = String.new("Boris") #also a valid way to create a string.
+
+p name
+
+## MULTI LINE STRINGS - also called Here documents.
+# <<MLS this marks a multi-line string. MLS can be anything.
+words = <<MLS
+This 
+is 
+a 
+multi
+line
+string
+
+MLS
+
+
+puts words
+p words
