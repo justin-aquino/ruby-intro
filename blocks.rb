@@ -18,3 +18,8 @@ A method can accept both arguments and blocks. Or neither one or one or the othe
     puts "Are you okay?"
     puts "Are you sure?"
 end
+
+##Block Variables - a variable that belongs to a block.
+
+3.times { |count| puts "#{count} Hi" } #the count would save the number of iteration it's on, as it's value.
+#define the block variables inside a double pipe.
