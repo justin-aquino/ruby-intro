@@ -92,3 +92,8 @@ p words
 puts 'Hello \n World' #line break doesnt work.
 puts '#{name} is my name' #neither does interpolation
 puts "Hello \n World"
+
+
+puts "hello" < "hi" #it is false. Compares in alphabetical classification.
+puts "H" < "h" #capital letters come before lowercase in alphabetical classification.
+puts "Z" < "a" #sorting algo goes through Capital letters first, and THEN, lowercase letters.
