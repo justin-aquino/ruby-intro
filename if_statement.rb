@@ -30,15 +30,28 @@
 
 # puts odd_or_even(3)
 
-age = 25
-ticket = "General Admission"
-id = false
+# age = 25
+# ticket = "General Admission"
+# id = false
 
-if age >= 21 && ticket == "General Admission" && id
-    puts "This way to gen ad"
-elsif age < 21 && ticket == "General Admission" && id
-    puts "Here's a bracelet for underage no drinking people"
-elsif age >= 21 && ticket == "General Admission" && !id
-    puts "I can't let you in without ID"
+# if age >= 21 && ticket == "General Admission" && id
+#     puts "This way to gen ad"
+# elsif age < 21 && ticket == "General Admission" && id
+#     puts "Here's a bracelet for underage no drinking people"
+# elsif age >= 21 && ticket == "General Admission" && !id
+#     puts "I can't let you in without ID"
     
+# end
+
+budget = 5
+price = 10
+mood =  "Sad"
+
+if budget > price || mood == "Happy"
+    puts "I'll buy it!"
+elsif budget < price || mood != "Happy"
+    puts "forget it!"
+
+else 
+    puts "I was going to buy it either way!"
 end
