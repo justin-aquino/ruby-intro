@@ -28,6 +28,13 @@ puts last_name = "Jiji"
 
 puts name + last_name 
 
+
+#interpolation
 puts "Hello my name is #{last_name} #{name}. I am #{age} years old."
 
 #variables can store values of different data types, unlike other programming languages that require a variable to have a value with consistent data type.
+
+x = 1
+y = 2
+
+puts "the sum of #{x} and #{y} is #{x + y} " #nice. You  can pretty much do anything in the interpolation
