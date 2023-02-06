@@ -18,11 +18,11 @@ end
 
 def calculate(a, b, operation = "add")
     if operation == "add"
-        add(a,b)
+        "The sum of #{a} and #{b} is #{add(a,b)}" #you can interpolate methods within a string.
     elsif operation == "subtract"
-        subtract(a,b)
+        "The difference of #{a} and #{b} is #{subtract(a,b)}"
     elsif operation == "multiply"
-        multiply(a,b)
+        "The product of #{a} and #{b} is #{multiply(a,b)}"
     elsif operation == "divide"
         divide(a,b)
     else
@@ -30,4 +30,4 @@ def calculate(a, b, operation = "add")
     end
 end
 
-p calculate(2.0,3.0, "divide")
+p calculate(2.0,3.0, "multiply")
