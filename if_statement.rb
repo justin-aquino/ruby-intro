@@ -81,3 +81,19 @@ puts rate_my_food("Sushi")
 puts rate_my_food("Tacos")
 puts rate_my_food("Noodles")
 puts rate_my_food("Veggies")
+
+def calculate_school_grade(grade)
+    case grade
+    when 90..100 then "A"
+    when 80..89 then "B"
+    when 70..79 then "C"
+    when 60..69 then "D"
+    else "F"
+    end
+end
+
+p calculate_school_grade(95.8)
+p calculate_school_grade(85.8)
+p calculate_school_grade(75.8)
+p calculate_school_grade(65.8)
+p calculate_school_grade(55.8)
