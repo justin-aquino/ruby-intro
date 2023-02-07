@@ -47,11 +47,37 @@ budget = 5
 price = 10
 mood =  "Sad"
 
-if budget > price || mood == "Happy"
-    puts "I'll buy it!"
-elsif budget < price || mood != "Happy"
-    puts "forget it!"
+# if budget > price || mood == "Happy"
+#     puts "I'll buy it!"
+# elsif budget < price || mood != "Happy"
+#     puts "forget it!"
 
-else 
-    puts "I was going to buy it either way!"
+# else 
+#     puts "I was going to buy it either way!"
+# end
+
+#The last expression in the method is returned, if no "return" statement is given
+
+## SWITCH CASES
+def rate_my_food(food)
+    case food 
+    when "Steak" #this means if the food is equal to "Steak"
+        "Pass the steak sauce! That's delicious!"
+    when "Sushi"
+        "Great choice! No California Rolls!"
+    when "Noodles"
+        "Slurp the noodles!"
+    when "Tacos", "Burritos", "Quesadillas"
+        "Gimme the salsa!"
+    else
+        "idk what that is"
+    end
+
+
 end
+
+puts rate_my_food("Steak")
+puts rate_my_food("Sushi")
+puts rate_my_food("Tacos")
+puts rate_my_food("Noodles")
+puts rate_my_food("Veggies")
