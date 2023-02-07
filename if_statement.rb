@@ -97,3 +97,26 @@ p calculate_school_grade(85.8)
 p calculate_school_grade(75.8)
 p calculate_school_grade(65.8)
 p calculate_school_grade(55.8)
+
+##UNLESS KEYWORD - means execute if false.
+
+password = "Jichu"
+
+
+# if password != "whiskers"
+#     puts "not allowed"
+# else 
+#     puts "That's the right password, welcome!"
+# end
+
+unless password == "whiskers" #this works the same as if password != "whiskers"
+    puts "not allowed!"
+else 
+    puts "WElcome!"
+end
+
+unless password.include?("a")
+    puts "it does not include a"
+else 
+    puts "yes it includes a"
+end
