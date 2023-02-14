@@ -97,3 +97,49 @@ puts "Hello \n World"
 puts "hello" < "hi" #it is false. Compares in alphabetical classification.
 puts "H" < "h" #capital letters come before lowercase in alphabetical classification.
 puts "Z" < "a" #sorting algo goes through Capital letters first, and THEN, lowercase letters.
+
+#CONCATENATING STRINGS
+
+#shovel methods
+
+first_name = "Harry "
+last_name = "Potter"
+
+# puts first_name << last_name << " is a wizard"
+puts
+# first_name += last_name
+# puts first_name
+
+# puts first_name.concat(last_name)
+
+name = first_name.prepend(last_name) # puts last name before first name
+
+puts name
+
+#.concat method overrides the original variable.'
+
+
+a = "Hello World"
+
+p a.length.class #returns integer. Fixnum is deprecated.
+
+#Extract Characters in Strings
+
+=begin
+Strings in Ruby are mutable. Not the case in all programming languages.
+All characters in a string has a numeric positioning to it. Just like an array, counting starts at position 0.
+=end
+
+str = "Once upon a time, in a land far, far away."
+
+# puts str.length
+
+p str[3]
+p str[-2]
+p str[1000] #returns nil since we don't have 1000 characters in the string.
+
+#.slice method works too.
+
+p str.slice(3)
+
+p str[5, 4] #takes out 4 characters starting from index 5.
