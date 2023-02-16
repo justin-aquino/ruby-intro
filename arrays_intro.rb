@@ -14,3 +14,7 @@ p toys
 things = [true, 5, "Hello", 10.88]
 
 puts things
+
+students = [{name: "justin", age: 28},{name:"Jichu", age: "22"}, {name: "boomboom", age: 27}]
+
+# puts students[0].name# doesnt work like js
