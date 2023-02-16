@@ -10,3 +10,7 @@ p numbers #will output the whole array, including the brackets
 toys = ["plushie", "nerf gun", "action figures"]
 
 p toys
+
+things = [true, 5, "Hello", 10.88]
+
+puts things
