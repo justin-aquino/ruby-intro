@@ -30,3 +30,10 @@ puts names
 # Array.new method.
 
 p Array.new(10, "hello") # I want a new array that has 10 elements in it, all of which are strings of "hello"
+
+
+## LENGTH OF AN ARRAY
+
+p things.length #works just like in JS
+
+p toys[0] #just like in JS
