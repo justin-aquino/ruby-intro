@@ -25,3 +25,8 @@ names = %w[Justin Jichu Boomboom Moosmoos] #doesnt need to be enclosed in quotat
 #You can't do two first names, like Justin Bernadette, because it will save it as 2 separate names. 
 
 puts names
+
+
+# Array.new method.
+
+p Array.new(10, "hello") # I want a new array that has 10 elements in it, all of which are strings of "hello"
