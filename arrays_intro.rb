@@ -37,3 +37,7 @@ p Array.new(10, "hello") # I want a new array that has 10 elements in it, all of
 p things.length #works just like in JS
 
 p toys[0] #just like in JS
+
+nums = [1,2,3,4,5,6,7,8,9]
+
+p nums[0, 1] #kind of like splice. start at index 0 (first arg), take out 1 item (second arg.)
