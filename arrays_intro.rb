@@ -1,43 +1,53 @@
-p []
-p [].class #returns Array
+# p []
+# p [].class #returns Array
 
-numbers = [1,2,3,4,5,6]
+# numbers = [1,2,3,4,5,6]
 
-puts numbers[1] #same as JavaScript
+# puts numbers[1] #same as JavaScript
 
-p numbers #will output the whole array, including the brackets
+# p numbers #will output the whole array, including the brackets
 
-toys = ["plushie", "nerf gun", "action figures"]
+# toys = ["plushie", "nerf gun", "action figures"]
 
-p toys
+# p toys
 
-things = [true, 5, "Hello", 10.88]
+# things = [true, 5, "Hello", 10.88]
 
-puts things
+# puts things
 
-students = [{name: "justin", age: 28},{name:"Jichu", age: "22"}, {name: "boomboom", age: 27}]
+# students = [{name: "justin", age: 28},{name:"Jichu", age: "22"}, {name: "boomboom", age: 27}]
 
-# puts students[0].name# doesnt work like js
+# # puts students[0].name# doesnt work like js
 
-#short hand array strings.
+# #short hand array strings.
 
-names = %w[Justin Jichu Boomboom Moosmoos] #doesnt need to be enclosed in quotation marks and is only separated by spaces. 
-#You can't do two first names, like Justin Bernadette, because it will save it as 2 separate names. 
+# names = %w[Justin Jichu Boomboom Moosmoos] #doesnt need to be enclosed in quotation marks and is only separated by spaces. 
+# #You can't do two first names, like Justin Bernadette, because it will save it as 2 separate names. 
 
-puts names
-
-
-# Array.new method.
-
-p Array.new(10, "hello") # I want a new array that has 10 elements in it, all of which are strings of "hello"
+# puts names
 
 
-## LENGTH OF AN ARRAY
+# # Array.new method.
 
-p things.length #works just like in JS
+# p Array.new(10, "hello") # I want a new array that has 10 elements in it, all of which are strings of "hello"
 
-p toys[0] #just like in JS
+
+# ## LENGTH OF AN ARRAY
+
+# p things.length #works just like in JS
+
+# p toys[0] #just like in JS
 
 nums = [1,2,3,4,5,6,7,8,9]
 
-p nums[0, 1] #kind of like splice. start at index 0 (first arg), take out 1 item (second arg.)
+# p nums[0, 1] #kind of like splice. start at index 0 (first arg), take out 1 item (second arg.)
+
+# #Access sequential array elements with a range object.
+
+p nums[3...7] #extracts element from 3rd index until 6. Not including 7th index.
+
+#VALUES AT METHOD
+
+channels = ["CBS", "FOX", "NBC", "ESPN", 'UPN']
+
+p channels.values_at(1,1,3) #will output duplicate arguments. returns an array
